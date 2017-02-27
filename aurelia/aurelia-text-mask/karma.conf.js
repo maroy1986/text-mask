@@ -14,7 +14,7 @@ let entryIndex = appSrc.indexOf(path.join(output, project.build.loader.configTar
 let entryBundle = appSrc.splice(entryIndex, 1)[0];
 let files = [entryBundle].concat(testSrc).concat(appSrc);
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     basePath: '',
     frameworks: [project.testFramework.id],
