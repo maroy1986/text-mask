@@ -1,0 +1,21 @@
+{
+  "name": "aurelia-text-mask",
+  "author": "Marc-Andre Roy <me@marcandreroy.ca>",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "Aurelia component for input text masking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aurelia",
+    "aurelia component",
+    "text mask",
+    "input mask",
+    "string mask",
+    "input formatting",
+    "text formatting",
+    "string formatting"
+  ]
+}
