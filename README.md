@@ -1,7 +1,7 @@
 # [![Text Mask](assets/logo.png)](https://github.com/text-mask/text-mask/#readme)
 
 <!--[![Build Status](https://travis-ci.org/text-mask/text-mask.svg?branch=master)](https://travis-ci.org/text-mask/text-mask)-->
-[![CircleCI](https://circleci.com/gh/maroy1986/text-mask/tree/master.svg?style=svg)](https://circleci.com/gh/maroy1986/text-mask/tree/master)
+[![Build Status](https://travis-ci.org/maroy1986/text-mask.svg?branch=master)](https://travis-ci.org/maroy1986/text-mask)
 
 Text Mask is an input mask library. It can create input masks for phone, date, currency, zip code, percentage, email, 
 and literally anything!
