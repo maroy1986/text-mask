@@ -50,5 +50,5 @@ define('resources/index',["require", "exports"], function (require, exports) {
     exports.configure = configure;
 });
 
-define('text!app.html', ['module'], function(module) { module.exports = "<template>\n  <h1>${message}</h1>\n</template>\n"; });
+define('text!app.html', ['module'], function(module) { module.exports = "<template>\n  <require from='../src/aureliaTextMask'>\n  <h1>${message}</h1>\n  <input text-mask=\"['(', /[1-9]/, /\\d/, /\\d/, ')', ' ', /\\d/, /\\d/, /\\d/, '-', /\\d/, /\\d/, /\\d/, /\\d/]\" name=\"test\" />\n</template>\n"; });
 //# sourceMappingURL=app-bundle.js.map
